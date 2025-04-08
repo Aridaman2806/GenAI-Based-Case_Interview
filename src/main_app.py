@@ -25,9 +25,9 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 def load_knowledge_base():
     documents = []
     files = [
-        "../data/zomato_context.txt",
-        "../data/rca_framework.txt",
-        "../data/interview_cases.txt"
+        "data/zomato_context.txt",
+        "data/rca_framework.txt",
+        "data/interview_cases.txt"
     ]
     
     for file in files:
